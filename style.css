@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap');
+
+:root {
+    font-family: 'Gideon Roman', cursive;
+}
+
+body {
+    margin: 0px;
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    border: 1px solid black;
+    background-color: #93C5FD;
+}
+
+.left-container {
+    padding-right: 25px;
+}
+
+.left-container > img {
+    width: 35px;
+    height: 20px;
+    vertical-align: middle;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+svg {
+    height: 50px;
+    width: 50px;
+    padding-right: 40px;
+    margin-top: 25px;
+}
+
+footer > img {
+    height: 350px;
+    width: 350px;
+}
+
+
+/* iphone compatible 12pro width*/
+@media (max-width: 428px) {
+    footer {
+        display: flex;
+        flex-direction: column;
+        }
+}
