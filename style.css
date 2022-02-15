@@ -1,19 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap');
 :root {
     font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
 }
 
 body {
     margin: 0px;
 }
 
-
+/* START OF HEADER */
 header {
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #93C5FD;
+
     padding: 25px;
     
   
@@ -22,8 +24,6 @@ header {
 header > div >  img {
     height: 450px;
     width: 350px;
-
-
 }
 
 header > .about-me {
@@ -42,6 +42,39 @@ header > .about-me {
     width: 25px;
 }
 
+
+/* START OF MAIN CONTENT*/s
+main > div > img {
+    color: white;
+    background-color: black;;
+} 
+
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 25px;
+   
+}
+
+main div {
+    border: 3px solid black;
+    height: 250px;
+    width: 250px;
+}
+
+main > div > svg {
+    height: 40px;
+    width: 40px;
+}
+
+
+
+
+
+/*START OF FOOTER */
 footer {
     display: flex;
     justify-content: center;
@@ -79,7 +112,7 @@ footer > img {
 
 
 /* iphone compatible 12pro width*/
-@media (max-width: 428px) {
+@media (max-width: 450px) {
     header {
         display: flex;
         flex-direction: column;
